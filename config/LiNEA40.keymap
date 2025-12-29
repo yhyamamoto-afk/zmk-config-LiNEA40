@@ -57,7 +57,7 @@
         layers = <SCROLL>;
         input-processors =
             <&zip_xy_transform INPUT_TRANSFORM_Y_INVERT>,
-            //スクロール方向を逆転,,,,,,,,,,,
+            //スクロール方向を逆転,,,,,,,,,,,,
             <&zip_xy_to_scroll_mapper>;
     };
 };
@@ -129,7 +129,7 @@
 &mt LCTRL ESC  &kp LEFT_WIN  &mt LEFT_ALT GRAVE  &kp LG(LA(K))  &lt 1 SPACE  &lt 3 LANGUAGE_2    &lt 2 LANG1  &lt 4 BACKSPACE         &lt 6 TAB  &kp QUESTION  &mt RIGHT_SHIFT AT
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP K_VOLUME_DOWN>;
+            sensor-bindings = <&re_kp C_VOLUME_UP C_VOL_DN>;
         };
 
         //1
